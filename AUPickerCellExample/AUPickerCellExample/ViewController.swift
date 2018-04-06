@@ -29,6 +29,7 @@ class ViewController: UITableViewController, AUPickerCellDelegate {
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     if indexPath.section == 0 {
       let cell = AUPickerCell(type: .default, reuseIdentifier: "PickerDefaultCell")
+      cell.delegate = self
       cell.separatorInset = UIEdgeInsets.zero
       cell.values = ["One", "Two", "Three"]
       cell.selectedRow = 1
@@ -40,6 +41,7 @@ class ViewController: UITableViewController, AUPickerCellDelegate {
       return cell
     } else {
       let cell = AUPickerCell(type: .date, reuseIdentifier: "PickerDateCell")
+      cell.delegate = self
       cell.separatorInset = UIEdgeInsets.zero
       cell.datePickerMode = .time
       cell.timeZone = TimeZone(abbreviation: "UTC")
@@ -68,7 +70,7 @@ class ViewController: UITableViewController, AUPickerCellDelegate {
     }
   }
   
-  func auPickerCell(_ cell: AUPickerCell, didPickRow row: Int, value: Any) {
-    
+  func auPickerCell(_ cell: AUPickerCell, didPick row: Int, value: Any) {
+    print(value)
   }
 }

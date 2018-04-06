@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "AUPickerCell"
-s.version          = "1.0.0.0"
+s.version          = "1.0.0.1"
 s.summary          = "Embedded picker view for table cells"
 s.description      = "A UITableViewCell with an embedded UIPickerView for dates or strings."
 s.homepage         = "https://github.com/azizuysal/AUPickerCell"

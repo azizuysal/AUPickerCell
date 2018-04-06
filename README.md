@@ -6,6 +6,8 @@
 
 Embedded picker view for table cells.
 
+<img src="./AUPickerCell.gif" height="412" alt="AUPickerCell animated GIF">
+
 ## Requirements
 
 AUPickerCell requires Swift 4.0 and Xcode 9.0.

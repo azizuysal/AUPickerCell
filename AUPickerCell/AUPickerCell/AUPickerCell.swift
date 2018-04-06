@@ -30,7 +30,7 @@ public class AUPickerCell: UITableViewCell {
   private let separator = ColorLockedView()
   private let pickerContainer = UIView()
   private(set) var picker: UIView = UIPickerView()
-  private(set) var pickerType = PickerType.default
+  public private(set) var pickerType = PickerType.default
   
   private var expanded = false
   
