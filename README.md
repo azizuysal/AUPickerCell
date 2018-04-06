@@ -1,14 +1,10 @@
----
-title: ""
----
-
 [![Language](https://img.shields.io/badge/Swift-4.0-orange.svg)](http://swift.org)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-brightgreen.svg)](https://cocoapods.org)
 
 # AUPickerCell
 
-A Concise HTTP Framework in Swift.
+Embedded picker view for table cells.
 
 ## Requirements
 
