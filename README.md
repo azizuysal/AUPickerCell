@@ -68,7 +68,7 @@ Afterwards, implement the following boilerplate in your `UITableViewDelegate` to
 ```swift
 override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
   if let cell = tableView.cellForRow(at: indexPath) as? AUPickerCell {
-    return cell.pickerHeight()
+    return cell.height
   }
   return super.tableView(tableView, heightForRowAt: indexPath)
 }

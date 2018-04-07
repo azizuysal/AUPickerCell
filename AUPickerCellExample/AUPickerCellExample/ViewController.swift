@@ -11,13 +11,6 @@ import AUPickerCell
 
 class ViewController: UITableViewController, AUPickerCellDelegate {
   
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    
-    tableView.rowHeight = UITableViewAutomaticDimension
-    tableView.estimatedRowHeight = 44.0
-  }
-  
   override func numberOfSections(in tableView: UITableView) -> Int {
     return 2
   }
@@ -31,8 +24,8 @@ class ViewController: UITableViewController, AUPickerCellDelegate {
       let cell = AUPickerCell(type: .default, reuseIdentifier: "PickerDefaultCell")
       cell.delegate = self
       cell.separatorInset = UIEdgeInsets.zero
-      cell.values = ["One", "Two", "Three"]
-      cell.selectedRow = 1
+      cell.values = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
+      cell.selectedRow = 2
       cell.leftLabel.text = "Testing Strings"
       cell.leftLabel.textColor = UIColor.lightText
       cell.rightLabel.textColor = UIColor.darkText
@@ -52,13 +45,15 @@ class ViewController: UITableViewController, AUPickerCellDelegate {
       cell.rightLabel.textColor = UIColor.darkText
       cell.tintColor = #colorLiteral(red: 0.9382581115, green: 0.8733785748, blue: 0.684623003, alpha: 1)
       cell.backgroundColor = #colorLiteral(red: 0.6344745755, green: 0.5274511576, blue: 0.4317585826, alpha: 1)
+      cell.separatorHeight = 1
+      cell.unexpandedHeight = 100
       return cell
     }
   }
   
   override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     if let cell = tableView.cellForRow(at: indexPath) as? AUPickerCell {
-      return cell.pickerHeight()
+      return cell.height
     }
     return super.tableView(tableView, heightForRowAt: indexPath)
   }
