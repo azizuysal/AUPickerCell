@@ -358,7 +358,7 @@ public class AUPickerCell: UITableViewCell {
   }
  
   override convenience init(style: UITableViewCellStyle, reuseIdentifier: String?) {
-     self.init(type: pickerType, reuseIdentifier: reuseIdentifier)
+     self.init(type: .default, reuseIdentifier: reuseIdentifier)
   }
   
   /**
