@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode10.2
+
+xcode_workspace: AUPickerCell.xcworkspace
+xcode_scheme:
+- AUPickerCell
+- AUPickerCellExample
+xcode_sdk: iphonesimulator12.2

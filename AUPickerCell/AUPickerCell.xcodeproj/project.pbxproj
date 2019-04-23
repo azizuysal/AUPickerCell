@@ -13,6 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F3D6A84226FB55E0029FDC3 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		8FC0F978226F8ECA00BE5126 /* AUPickerCell.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AUPickerCell.podspec; path = ../AUPickerCell.podspec; sourceTree = "<group>"; };
 		8FC0F97A226F8F2F00BE5126 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8FE2CDC61E845D2C004AD045 /* AUPickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AUPickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +38,7 @@
 			children = (
 				8FC0F978226F8ECA00BE5126 /* AUPickerCell.podspec */,
 				8FC0F97A226F8F2F00BE5126 /* README.md */,
+				8F3D6A84226FB55E0029FDC3 /* .travis.yml */,
 				8FE2CDC81E845D2C004AD045 /* AUPickerCell */,
 				8FE2CDC71E845D2C004AD045 /* Products */,
 			);
