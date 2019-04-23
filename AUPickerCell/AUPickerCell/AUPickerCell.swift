@@ -29,7 +29,7 @@ public protocol AUPickerCellDelegate {
  
  ## Requirements
  
- AUPickerCell requires Swift 4.0 and Xcode 9.0.
+ AUPickerCell requires Swift 5.0 and Xcode 10.2.
  
  ## Installation
  

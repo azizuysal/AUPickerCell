@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FC0F97B226F8F2F00BE5126 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0F97A226F8F2F00BE5126 /* README.md */; };
 		8FE2CDCB1E845D2C004AD045 /* AUPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE2CDC91E845D2C004AD045 /* AUPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FE2CDD31E845DA0004AD045 /* AUPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2CDD21E845DA0004AD045 /* AUPickerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8FC0F978226F8ECA00BE5126 /* AUPickerCell.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AUPickerCell.podspec; path = ../AUPickerCell.podspec; sourceTree = "<group>"; };
+		8FC0F97A226F8F2F00BE5126 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8FE2CDC61E845D2C004AD045 /* AUPickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AUPickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE2CDC91E845D2C004AD045 /* AUPickerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUPickerCell.h; sourceTree = "<group>"; };
 		8FE2CDCA1E845D2C004AD045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +35,8 @@
 		8FE2CDBC1E845D2C004AD045 = {
 			isa = PBXGroup;
 			children = (
+				8FC0F978226F8ECA00BE5126 /* AUPickerCell.podspec */,
+				8FC0F97A226F8F2F00BE5126 /* README.md */,
 				8FE2CDC81E845D2C004AD045 /* AUPickerCell */,
 				8FE2CDC71E845D2C004AD045 /* Products */,
 			);
@@ -48,9 +53,9 @@
 		8FE2CDC81E845D2C004AD045 /* AUPickerCell */ = {
 			isa = PBXGroup;
 			children = (
+				8FE2CDD21E845DA0004AD045 /* AUPickerCell.swift */,
 				8FE2CDC91E845D2C004AD045 /* AUPickerCell.h */,
 				8FE2CDCA1E845D2C004AD045 /* Info.plist */,
-				8FE2CDD21E845DA0004AD045 /* AUPickerCell.swift */,
 			);
 			path = AUPickerCell;
 			sourceTree = "<group>";
@@ -93,22 +98,23 @@
 		8FE2CDBD1E845D2C004AD045 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Aziz Uysal";
 				TargetAttributes = {
 					8FE2CDC51E845D2C004AD045 = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 8FE2CDC01E845D2C004AD045 /* Build configuration list for PBXProject "AUPickerCell" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8FE2CDBC1E845D2C004AD045;
 			productRefGroup = 8FE2CDC71E845D2C004AD045 /* Products */;
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC0F97B226F8F2F00BE5126 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +153,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -207,6 +215,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -273,7 +282,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -292,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizuysal.AUPickerCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
