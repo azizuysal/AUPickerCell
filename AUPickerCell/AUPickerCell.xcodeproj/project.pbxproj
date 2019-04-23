@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F3D6A8C226FB8550029FDC3 /* AUPickerCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D6A8B226FB8550029FDC3 /* AUPickerCellTests.swift */; };
+		8F3D6A8E226FB8550029FDC3 /* AUPickerCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE2CDC61E845D2C004AD045 /* AUPickerCell.framework */; };
 		8FC0F97B226F8F2F00BE5126 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0F97A226F8F2F00BE5126 /* README.md */; };
 		8FE2CDCB1E845D2C004AD045 /* AUPickerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE2CDC91E845D2C004AD045 /* AUPickerCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FE2CDD31E845DA0004AD045 /* AUPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2CDD21E845DA0004AD045 /* AUPickerCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8F3D6A8F226FB8550029FDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FE2CDBD1E845D2C004AD045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE2CDC51E845D2C004AD045;
+			remoteInfo = AUPickerCell;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		8F3D6A84226FB55E0029FDC3 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
+		8F3D6A89226FB8550029FDC3 /* AUPickerCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUPickerCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3D6A8B226FB8550029FDC3 /* AUPickerCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUPickerCellTests.swift; sourceTree = "<group>"; };
+		8F3D6A8D226FB8550029FDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FC0F978226F8ECA00BE5126 /* AUPickerCell.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AUPickerCell.podspec; path = ../AUPickerCell.podspec; sourceTree = "<group>"; };
 		8FC0F97A226F8F2F00BE5126 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8FE2CDC61E845D2C004AD045 /* AUPickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AUPickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +38,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8F3D6A86226FB8550029FDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3D6A8E226FB8550029FDC3 /* AUPickerCell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FE2CDC21E845D2C004AD045 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F3D6A8A226FB8550029FDC3 /* AUPickerCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F3D6A8B226FB8550029FDC3 /* AUPickerCellTests.swift */,
+				8F3D6A8D226FB8550029FDC3 /* Info.plist */,
+			);
+			path = AUPickerCellTests;
+			sourceTree = "<group>";
+		};
 		8FE2CDBC1E845D2C004AD045 = {
 			isa = PBXGroup;
 			children = (
@@ -40,6 +72,7 @@
 				8FC0F97A226F8F2F00BE5126 /* README.md */,
 				8F3D6A84226FB55E0029FDC3 /* .travis.yml */,
 				8FE2CDC81E845D2C004AD045 /* AUPickerCell */,
+				8F3D6A8A226FB8550029FDC3 /* AUPickerCellTests */,
 				8FE2CDC71E845D2C004AD045 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				8FE2CDC61E845D2C004AD045 /* AUPickerCell.framework */,
+				8F3D6A89226FB8550029FDC3 /* AUPickerCellTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +110,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8F3D6A88226FB8550029FDC3 /* AUPickerCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F3D6A93226FB8550029FDC3 /* Build configuration list for PBXNativeTarget "AUPickerCellTests" */;
+			buildPhases = (
+				8F3D6A85226FB8550029FDC3 /* Sources */,
+				8F3D6A86226FB8550029FDC3 /* Frameworks */,
+				8F3D6A87226FB8550029FDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F3D6A90226FB8550029FDC3 /* PBXTargetDependency */,
+			);
+			name = AUPickerCellTests;
+			productName = AUPickerCellTests;
+			productReference = 8F3D6A89226FB8550029FDC3 /* AUPickerCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8FE2CDC51E845D2C004AD045 /* AUPickerCell */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FE2CDCE1E845D2C004AD045 /* Build configuration list for PBXNativeTarget "AUPickerCell" */;
@@ -100,9 +152,14 @@
 		8FE2CDBD1E845D2C004AD045 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Aziz Uysal";
 				TargetAttributes = {
+					8F3D6A88226FB8550029FDC3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					8FE2CDC51E845D2C004AD045 = {
 						CreatedOnToolsVersion = 8.2.1;
 						LastSwiftMigration = 1020;
@@ -124,11 +181,19 @@
 			projectRoot = "";
 			targets = (
 				8FE2CDC51E845D2C004AD045 /* AUPickerCell */,
+				8F3D6A88226FB8550029FDC3 /* AUPickerCellTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8F3D6A87226FB8550029FDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FE2CDC41E845D2C004AD045 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,6 +205,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8F3D6A85226FB8550029FDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3D6A8C226FB8550029FDC3 /* AUPickerCellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FE2CDC11E845D2C004AD045 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,7 +223,58 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8F3D6A90226FB8550029FDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FE2CDC51E845D2C004AD045 /* AUPickerCell */;
+			targetProxy = 8F3D6A8F226FB8550029FDC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8F3D6A91226FB8550029FDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AUPickerCellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azizuysal.AUPickerCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F3D6A92226FB8550029FDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AUPickerCellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azizuysal.AUPickerCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8FE2CDCC1E845D2C004AD045 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -310,6 +434,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8F3D6A93226FB8550029FDC3 /* Build configuration list for PBXNativeTarget "AUPickerCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3D6A91226FB8550029FDC3 /* Debug */,
+				8F3D6A92226FB8550029FDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8FE2CDC01E845D2C004AD045 /* Build configuration list for PBXProject "AUPickerCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
