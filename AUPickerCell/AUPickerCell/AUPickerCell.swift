@@ -356,6 +356,10 @@ public class AUPickerCell: UITableViewCell {
     pickerType = .default
     initialize()
   }
+ 
+  override convenience init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+     self.init(type: .default, reuseIdentifier: reuseIdentifier)
+  }
   
   /**
    Initializes and returns a newly allocated table cell object with the specified type of picker view embedded inside. This is the designated initializer for the class.
